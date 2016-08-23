@@ -1,0 +1,21 @@
+524  cd ~/Desktop/
+  525  ls -la
+  526  mkdir basic_repo
+  527  ls la
+  528  ls la
+  529  cd basic_repo/
+  530  ls -la
+  531  touch index.html
+  532  touch style.css
+  533  vi index.html 
+  534  vi style.css
+  535  git status
+  536  git init
+  537  ls -la
+  538  git remote
+  539  git remote add origin https://github.com/quachio/basic_repo.git
+  540  git status
+  541  git add .
+  542  git commit -m "first commit"
+  543  git push origin master 
+
